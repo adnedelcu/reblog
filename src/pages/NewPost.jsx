@@ -26,7 +26,6 @@ export const NewPost = () => {
     }
 
     const user = getUser();
-    console.log(user);
 
     const postData = {
       title: title,

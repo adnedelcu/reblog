@@ -14,7 +14,6 @@ export const Post = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    console.log(id);
     const fetchPost = async () => {
       try {
         const response = await fetch(`${baseUrl}/posts/${id}?with=all`);
